@@ -1,0 +1,39 @@
+{
+  "name": "scan-git-repo",
+  "version": "0.0.1",
+  "description": "Scan your projects directory for git repositories.",
+  "keywords": [
+    "scan",
+    "find",
+    "git",
+    "repo",
+    "repositories",
+    "folder",
+    "dir"
+  ],
+  "author": "Ermes Enea Colella <eecolella@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": {
+    "scan-git-repo": "bin/scan-git-repo.js"
+  },
+  "scripts": {
+    "publish": "np"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "flat": "^5.0.2",
+    "git-state": "^4.1.0",
+    "object-treeify": "^1.1.30",
+    "ora": "^5.1.0",
+    "tilda": "^4.4.16"
+  },
+  "devDependencies": {
+    "np": "^7.0.0",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eecolella/scan-git-repo.git"
+  }
+}
